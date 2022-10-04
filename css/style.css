@@ -1,0 +1,378 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* border: solid red 1px; */
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+body,
+html {
+    color: #fff;
+    background-color: #0065c3;
+    font-family: Sofia Pro Regular, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.padding-derecho {
+    padding-right: 35px;
+}
+
+.padding-izquierdo {
+    padding-left: 35px;
+}
+
+.centrado {
+    text-align: center;
+}
+
+.boton {
+    transition-duration: 1s;
+}
+
+.boton a {
+    margin: 15px auto;
+    border: solid white 2px;
+    padding: 7px 15px;
+    border-radius: 20px;
+    color: white;
+}
+
+.boton:hover {
+    transform: scale(1.085);
+}
+
+/* ==========NAVBAR=========== */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.sticky+.menu {
+    padding-top: 60px;
+}
+
+.menu {
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #0065c3;
+    text-transform: uppercase;
+}
+
+.listado {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.menu a {
+    color: white;
+    padding: 20px;
+    font-weight: 600;
+    transition-duration: 1s;
+}
+
+.menu li {
+    transition-duration: 1s;
+}
+
+.logo {
+    transition-duration: 1s;
+}
+
+.menu .buy a {
+    border: solid white 2px;
+    border-radius: 20px;
+    padding: 5px 20px;
+}
+
+.listado li {
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.listado li:hover {
+    text-decoration: underline;
+    transform: scale(1.2);
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.buy li:hover {
+    transform: scale(1.2);
+}
+
+.logo:hover {
+    transform: scale(1.25);
+}
+
+/* =====MAIN====== */
+.pepsi-nitro {
+    height: 100vh;
+    background-image: url(https://www.pepsi.com/en-us/uploads/images/nitro/Desktop_Background.png);
+    background-size: cover;
+    background-position: 50% center;
+    background-position-x: 50%;
+    background-position-y: center;
+    display: flex;
+    place-content: center;
+    padding: 50px;
+}
+
+.galeria__texto {
+    margin-top: 30px;
+    align-self: center;
+}
+
+.galeria__bebida {
+    margin-top: 80px;
+    align-self: center;
+}
+
+.galeria__texto img {
+    width: 100%;
+    height: auto;
+}
+
+.galeria__texto h1 {
+    text-align: center;
+    font-size: 2, 5rem;
+}
+
+.galeria__texto__boton {
+    display: flex;
+    place-content: center;
+}
+
+.galeria__texto__boton a {
+    color: #fff;
+    border: solid white 2px;
+    margin-top: 20px;
+    border-radius: 20px;
+    padding: 10px 30px;
+}
+
+/*zero*/
+.pepsi-zero {
+    height: 80vh;
+    background-image: url("https://www.pepsi.com/en-us/uploads/images/PZS-tile-background.png");
+    background-size: cover;
+    background-position: 50% center;
+    background-position-x: 50%;
+    background-position-y: center;
+    display: flex;
+    place-content: center;
+    padding: 30px;
+}
+
+.video__zero {
+    width: 100%;
+    display: flex;
+    place-content: center;
+    margin-top: 20px;
+}
+
+.video__zero img {
+    width: 40%;
+}
+
+/*Comida*/
+.comida {
+    display: flex;
+    width: 96%;
+    margin: 5px auto;
+    gap: 20px;
+}
+
+.comida__chica {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.comida__grande {
+    width: auto;
+    display: flex;
+    background-image: url(https://www.pepsi.com/en-us/uploads/images/better-with-pepsi/PEP_BWP_D.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.comida__grande img {
+    width: 50%;
+    height: auto;
+    align-self: flex-end;
+    justify-items: flex-end;
+    justify-self: flex-end;
+    justify-content: flex-end;
+}
+
+/* pepsi-mango*/
+.pepsi-mango {
+    display: flex;
+    background-image: url('https://www.pepsi.com/en-us/uploads/images/pepsi-mango/bg-2-desktop@2x.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pepsi-mango__columna1 {
+    padding: 30px;
+    height: 100%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.pepsi-mango .img1 {
+    width: 100%;
+}
+
+.pepsi-mango .img2 {
+    width: 60%;
+    height: auto;
+}
+
+.pepsi-mango img {
+    width: 50%;
+}
+
+/*section video*/
+.video {
+    width: 100%;
+    display: flex;
+
+}
+
+.video video {
+    height: 100%;
+    width: 100%;
+}
+
+/*Pepsi-clasica*/
+.pepsi-clasica {
+    display: flex;
+}
+
+/* 3-pepsi*/
+.tres-pepsi {
+    height: fit-content;
+    display: flex;
+    background-color: #0065c3;
+    background-image: url(https://www.pepsi.com/en-us/uploads/04_Generation_BG_D_2.png?mtime=20181217151706);
+    background-position: center;
+    padding: 30px;
+    place-content: center;
+}
+
+.tres-pepsi .galeria__texto {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+}
+
+.tres-pepsi .galeria__texto {
+    width: 40%;
+}
+
+.tres-pepsi .galeria__texto h2 {
+    font-size: 4rem;
+    font-weight: 800;
+    line-height: 3.5rem;
+    margin-bottom: 1rem;
+}
+
+.tres-pepsi .galeria__texto p {
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+}
+
+.tres-pepsi .galeria__bebida {
+    width: 50%;
+}
+
+.tres-pepsi .galeria__bebida img {
+    width: 100%;
+}
+
+/* ===== Pre-Footer ======*/
+.pre-footer {
+    background-color: white;
+    color: #0065c3;
+}
+
+.pre-footer h3 {
+    text-align: center;
+    font-size: 4rem;
+}
+
+.pre-footer__galeria {
+    display: flex;
+    width: 90%;
+    margin: 20px;
+    place-content: center;
+}
+
+.pre-footer__galeria img {
+    max-width: 220px;
+    object-fit: cover;
+}
+
+/* ===== FOOTER ======*/
+.footer {
+    width: 95%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__links {
+    display: flex;
+}
+
+.footer__links__grupo {
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+}
+
+.footer__links__grupo a {
+    color: white;
+}
+
+.footer__links__grupo :hover {
+    text-decoration: underline;
+    transform: scale(1.070);
+}
+
+
+.footer__redes-sociales .boton {
+    margin-bottom: 20px;
+}
+
+.footer__redes-sociales__img {
+    display: flex;
+    place-content: center;
+    justify-content: space-around;
+}
+
+.footer__redes-sociales img {
+    width: 40px;
+}
+
+.copyright{
+    text-align: center;
+    font-size: 0.7rem;
+}
